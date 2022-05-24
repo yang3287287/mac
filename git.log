@@ -1,0 +1,286 @@
+-------------------debug---------------------
+cgFileMonitorThread::execute(): will <execute_FromOpnBSM>: Because: (s_isOnlyAudit=true or s_isDocAuthEnabled=false)
+cgFileMonitorThread::execute_FromOpnBSM()
+cgUSBStorageMonitorThread::execute()
+Add_White_ProcessDir[SYS]: /dev/
+Add_White_ProcessDir[SYS]: /bin/
+Add_White_ProcessDir[SYS]: /etc/
+Add_White_ProcessDir[SYS]: /cores/
+Add_White_ProcessDir[SYS]: /system/library/
+Add_White_ProcessDir[SYS]: /private/etc/
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=72, File=/private/etc/master.passwd, ProcessName=coreservicesd[162], PortId=0, accessmod=33152,
+cgFileMonitorThread::isFilterProcess: process=[/system/library/frameworks/coreservices.framework/versions/a/frameworks/carboncore.framework/versions/a/support/coreservicesd], filt By [/system/library/]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=72, File=/private/etc/master.passwd, Process=/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/coreservicesd
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=112, File=/private/etc/master.passwd, ProcessName=coreservicesd[162], PortId=0, accessmod=33152,
+cgFileMonitorThread::isFilterProcess: process=[/system/library/frameworks/coreservices.framework/versions/a/frameworks/carboncore.framework/versions/a/support/coreservicesd], filt By [/system/library/]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=112, File=/private/etc/master.passwd, Process=/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/coreservicesd
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=72, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/ECAgent, ProcessName=EasyMonitor[150], PortId=0, accessmod=36297,
+Skip! Filte By Path:</Applications/>,  CurPath:</Applications/.JDVPNClient.app/Contents/Resources/bin/ECAgent>
+cgFileMonitorThread::execute(): SKIP!! Filte by pathname!eventTime=2022-05-24 10:29:51, eventType=72, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/ECAgent, Process=/Applications/.JDVPNClient.app/Contents/Resources/bin/EasyMonitor
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=112, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/ECAgent, ProcessName=EasyMonitor[150], PortId=0, accessmod=36297,
+Skip! Filte By Path:</Applications/>,  CurPath:</Applications/.JDVPNClient.app/Contents/Resources/bin/ECAgent>
+cgFileMonitorThread::execute(): SKIP!! Filte by pathname!eventTime=2022-05-24 10:29:51, eventType=112, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/ECAgent, Process=/Applications/.JDVPNClient.app/Contents/Resources/bin/EasyMonitor
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=72, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/svpnservice, ProcessName=EasyMonitor[150], PortId=0, accessmod=36297,
+Skip! Filte By Path:</Applications/>,  CurPath:</Applications/.JDVPNClient.app/Contents/Resources/bin/svpnservice>
+cgFileMonitorThread::execute(): SKIP!! Filte by pathname!eventTime=2022-05-24 10:29:51, eventType=72, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/svpnservice, Process=/Applications/.JDVPNClient.app/Contents/Resources/bin/EasyMonitor
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=112, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/svpnservice, ProcessName=EasyMonitor[150], PortId=0, accessmod=36297,
+Skip! Filte By Path:</Applications/>,  CurPath:</Applications/.JDVPNClient.app/Contents/Resources/bin/svpnservice>
+cgFileMonitorThread::execute(): SKIP!! Filte by pathname!eventTime=2022-05-24 10:29:51, eventType=112, File=/Applications/.JDVPNClient.app/Contents/Resources/bin/svpnservice, Process=/Applications/.JDVPNClient.app/Contents/Resources/bin/EasyMonitor
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=77, File=/private/tmp/com.sangfor.lockecagent, ProcessName=EasyMonitor[150], PortId=0, accessmod=33216,
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=QQPCPolicyMgr[665], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=QQPCMgrDaemon[645], PortId=0, accessmod=
+cgFileMonitorThread::isFilterProcess: processName=[QQPCMgrDaemon], Filt By [QQPCMgrDaemon]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=184, File=/private/tmp/com.sangfor.lockecagent, Process=/Applications/QQPCMgr.localized/QQPCMgr.app/Contents/Resources/QQPCMgrDaemon
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=NetworkServiceMgr[681], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=QQPCMgrDaemon[645], PortId=0, accessmod=
+cgFileMonitorThread::isFilterProcess: processName=[QQPCMgrDaemon], Filt By [QQPCMgrDaemon]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=184, File=/private/tmp/com.sangfor.lockecagent, Process=/Applications/QQPCMgr.localized/QQPCMgr.app/Contents/Resources/QQPCMgrDaemon
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=QQPCMgr[594], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=QQPCMgrDaemon[645], PortId=0, accessmod=
+cgFileMonitorThread::isFilterProcess: processName=[QQPCMgrDaemon], Filt By [QQPCMgrDaemon]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=184, File=/private/tmp/com.sangfor.lockecagent, Process=/Applications/QQPCMgr.localized/QQPCMgr.app/Contents/Resources/QQPCMgrDaemon
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=NetworkServiceMgr[681], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=14, File=/Library/Application Support/DLP3.0/data/Login.json, ProcessName=CGEData[37333], PortId=50331650, accessmod=33206,
+cgFileMonitorThread::isFilterProcess: processName=[CGEData], Filt By [CGEData]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=14, File=/Library/Application Support/DLP3.0/data/Login.json, Process=/Library/Application Support/DLP3.0/DLP.app/Contents/MacOS/CGEData
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=72, File=/Library/Application Support/DLP3.0/data/Login.json, ProcessName=CGEData[37333], PortId=50331650, accessmod=33206,
+cgFileMonitorThread::isFilterProcess: processName=[CGEData], Filt By [CGEData]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=72, File=/Library/Application Support/DLP3.0/data/Login.json, Process=/Library/Application Support/DLP3.0/DLP.app/Contents/MacOS/CGEData
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=112, File=/Library/Application Support/DLP3.0/data/Login.json, ProcessName=CGEData[37333], PortId=50331650, accessmod=33206,
+cgFileMonitorThread::isFilterProcess: processName=[CGEData], Filt By [CGEData]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=112, File=/Library/Application Support/DLP3.0/data/Login.json, Process=/Library/Application Support/DLP3.0/DLP.app/Contents/MacOS/CGEData
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=72, File=/Library/Application Support/DLP3.0/Cache/ClientInfo.cache, ProcessName=CGEData[37333], PortId=50331650, accessmod=33206,
+cgFileMonitorThread::isFilterProcess: processName=[CGEData], Filt By [CGEData]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=72, File=/Library/Application Support/DLP3.0/Cache/ClientInfo.cache, Process=/Library/Application Support/DLP3.0/DLP.app/Contents/MacOS/CGEData
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=112, File=/Library/Application Support/DLP3.0/Cache/ClientInfo.cache, ProcessName=CGEData[37333], PortId=50331650, accessmod=33206,
+cgFileMonitorThread::isFilterProcess: processName=[CGEData], Filt By [CGEData]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=112, File=/Library/Application Support/DLP3.0/Cache/ClientInfo.cache, Process=/Library/Application Support/DLP3.0/DLP.app/Contents/MacOS/CGEData
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/Library/Application Support/DLP3.0/Cache/ClientInfo.cache, ProcessName=QQPCMgrDaemon[645], PortId=0, accessmod=
+cgFileMonitorThread::isFilterProcess: processName=[QQPCMgrDaemon], Filt By [QQPCMgrDaemon]
+cgFileMonitorThread::execute_FromOpnBSM(): SKIP!! Filte by process!eventTime=2022-05-24 10:29:51, eventType=184, File=/Library/Application Support/DLP3.0/Cache/ClientInfo.cache, Process=/Applications/QQPCMgr.localized/QQPCMgr.app/Contents/Resources/QQPCMgrDaemon
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=112, File=/private/tmp/com.sangfor.lockecagent, ProcessName=EasyMonitor[150], PortId=0, accessmod=33216,
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=symptomsd[206], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=symptomsd[206], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=35, File=/private/tmp/com.sangfor.lockecagent, ProcessName=mDNSResponder[198], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=35, File=/private/tmp/com.sangfor.lockecagent, ProcessName=mDNSResponder[198], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=213, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=191, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient_Desktop[585], PortId=50331650, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFile: EventTime=2022-05-24 10:29:51, EventType=184, File=/private/tmp/com.sangfor.lockecagent, ProcessName=SunloginClient[747], PortId=0, accessmod=
+OpenFi
